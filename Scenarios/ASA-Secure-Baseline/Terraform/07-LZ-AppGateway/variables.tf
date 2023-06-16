@@ -346,13 +346,13 @@ variable "https_password" {
   type        = string
   description = "Password of the PFX certificate file used by the Application Gateway listener"
   sensitive   = true
-  default     = ""
+  default     = "q2w3Q@W#"
 }
 
 variable "certfilename" {
   type        = string
   description = "filename of the PFX certificate file within this directory"
-  default     = ""
+  default     = "mycertificate.pfx"
 }
 
 variable "azure_app_gateway_zones" {
